@@ -1,0 +1,21 @@
+h1 {
+
+color: white;
+background-color: coral;
+font: lighter 42px "Avenir Next";
+margin-top: auto;
+padding: 12px;
+
+}
+
+p{
+    color: cornflowerblue;
+}
+
+body {
+
+background-color: lemonchiffon;
+text-align: center;
+margin: 0;
+
+}
