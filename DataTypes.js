@@ -38,7 +38,7 @@ const emp_id = 8;
 
 
 /* *******************************************************************************************************************************
-                                          Objects, Array, Function: Here we will just see the basic syntax
+     Objects, Array, Function: Here we will just see the basic syntax. In depth description will be added in different JS file.
 ****************************************************************************************************************************** */
 //Objects
 
@@ -59,3 +59,4 @@ console.log(user.age);
 
 
 
+ 
