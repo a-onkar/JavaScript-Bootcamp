@@ -1,6 +1,7 @@
 
-
 /****************** Arithematic Operators ******************/
+
+console.log('********* Arithematic Operator *************')
 
 let a = 7, b = 3;
 
@@ -10,10 +11,19 @@ console.log(a%b);
 console.log(a/b)
 console.log(a**b) // a rasie to the power b
 
+let c = 10;
+    // c = c * 10;
+    c*=10;  // Can write above statement in this form as well
 
-/****************** Post-increement & Pre-Increement ******************/
+console.log('Value of c: '+c)
 
-console.log('************Post-increement & Pre-Increement****************');
+
+// ************Post-increement & Pre-Increement****************
+// n++	Returns n then increments n by 1.
+// ++n	Increments n by 1 then returns n.
+// n--	Returns n then decrements n by 1.
+// --n	Decrements n by 1 then returns n.
+
 
 // Example 1:
 console.log('*************Pre & Post increement example 1************');
@@ -74,5 +84,14 @@ console.log("Multiplying the pre-increement (10 * ++n): "+y);
 console.log("Value of n after pre-increement: "+n);
 
 
+console.log('************Post-decreement & Pre-decreement****************');
 
+
+m = 2;
+console.log(m--)
+console.log(m)
+
+n = 3;
+console.log(--n)
+console.log(n)
 
