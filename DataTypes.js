@@ -41,7 +41,9 @@ const emp_id = 8;
      Objects, Array, Function: Here we will just see the basic syntax. In depth description will be added in different JS file.
 ****************************************************************************************************************************** */
 
-//Objects
+/**************************************************************/
+/*********************** Objects ****************************/ 
+/**************************************************************/
 
 console.log("Example of Object declaration and accesing variables of an object")
 
@@ -49,7 +51,7 @@ let udobj = {} // Undefined object
 
 let user = {
     name: "Anand",
-    age:30
+    age:30,
 };
 
 console.log(user);
@@ -60,27 +62,10 @@ user['name'] = "Supriya";    // Updating variable value using bracket notations
 
 console.log('User name after updating: '+user.name);
 
+/**************************************************************/
+/*********************** Functions ****************************/ 
+/**************************************************************/
 
-
-//Arrays: List of objects
-console.log("Example of Array declaration and accesing variables of an object");
-
-let emptyArray = []; // Blank Array or Empty array
-
-let sampleArray = ['el0', 'el1', 'el2', 'el3'];
-
-console.log(sampleArray); // Priniting the complete Array
-console.log(sampleArray[3]); // Printing specific element in an array
-
-console.log('Length of Array: '+sampleArray.length); // Printing the length of array
-
-sampleArray[4] = 'el4';  // Adding new element to Array
-
-console.log(sampleArray); // Priniting the updated Array
-console.log('Length of updated Array: '+sampleArray.length); // Printing the length of array
-
-
-// Functions
 
 function printData(){
     console.log("This is a basic function, that is printing this statement")
@@ -116,6 +101,29 @@ function sqrRoot(num){
 
 console.log(sqrRoot(5))
 console.log(sqrRoot(25))
+
+
+/****************** Arrays: List of objects **********************/
+
+console.log("Example of Array declaration and accesing variables of an object");
+
+let emptyArray = []; // Blank Array or Empty array
+
+let sampleArray = ['el0', 'el1', 'el2', 'el3'];
+
+console.log(sampleArray); // Priniting the complete Array
+console.log(sampleArray[3]); // Printing specific element in an array
+
+console.log('Length of Array: '+sampleArray.length); // Printing the length of array
+
+sampleArray[4] = 'el4';  // Adding new element to Array
+
+console.log(sampleArray); // Priniting the updated Array
+console.log('Length of updated Array: '+sampleArray.length); // Printing the length of array
+
+
+
+
 
 
 

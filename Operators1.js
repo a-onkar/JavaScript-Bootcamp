@@ -19,7 +19,7 @@
 
 
 
-//     Operator	Description
+//     Comparison Operator
 // expr1 == expr2	Equal. Returns true if expr1 and expr2 are equal. Conversion occurs if the operands are of different types.
 // expr1 != expr2	Not equal. Returns true if expr1 and expr2 are not equal. Type conversion occurs as necessary.
 // expr1 === expr2	Strict equal. Returns true if expr1 and expr2 are of the same type, and are equal.
