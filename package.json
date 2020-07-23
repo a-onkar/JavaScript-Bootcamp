@@ -1,0 +1,23 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "JavaScript notes and examples.",
+  "main": "TestFile.js",
+  "scripts": {
+    "opency": "./node_modules/.bin/cypress open",
+    "test": "./node_modules/.bin/cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-onkar/JavaScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-onkar/JavaScript/issues"
+  },
+  "homepage": "https://github.com/a-onkar/JavaScript#readme",
+  "devDependencies": {
+    "cypress": "^4.10.0"
+  }
+}
