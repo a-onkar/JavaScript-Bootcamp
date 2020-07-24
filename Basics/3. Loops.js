@@ -52,11 +52,13 @@ console.log('************** For-in ***************')
 
 const person = {
     name: 'Anand',
-    age: '31'
+    age: '32',
+    profession: 'Software Engineer',
+    location: 'Limerick'
 }
 
 for(let key in person){
-    console.log(key, person[key])
+    console.log(`The ${key} of object is ${person[key]}`)
 }
 
 
