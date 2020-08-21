@@ -4,10 +4,8 @@ let name = 'Anand';
 let work = 'AMCS';
 
 
-let myHtml = `
-<h1> Employee Info</h1>
-<p> ${name} is working 
-with ${work} </p> `;
+let myHtml = `<h1> Employee Info</h1>
+<p> ${name} is working with ${work} </p> `;
 
 document.body.innerHTML = myHtml;
 
