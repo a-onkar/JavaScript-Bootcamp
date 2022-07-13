@@ -1,3 +1,3 @@
 # JavaScript
 
-JavaScript notes and examples.
+Practice pseudo codes & implement valina JS projects
